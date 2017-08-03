@@ -1,0 +1,123 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+@keyframes slider{
+	0%{
+		Left:0;
+	}
+	20%{
+		left:0;
+	}
+	25%{
+		left:-100%;
+	}
+	45%{
+		left:-150%;
+	}
+	50%{
+		left:-200%;
+	}
+	70%{
+		left:-200%;
+	}
+	75%{
+		left:-300%;
+	}
+	95%{
+		left:-300%;
+	}
+	100%{
+		left:-400%;
+	}
+}
+#slider{
+	overflow: hidden;
+}
+#slider figure img{
+	width:20%;
+	height:60%;
+	float:left;
+}
+#slider figure{
+	position :relative;
+	width:400%;
+	margin:0;
+	left:0;
+	text-align: left;
+	font-size: 0;
+	animation:20s slider infinite;
+}
+.heading{
+	height: 100px;
+	background-color:transparent; 
+	padding: 20px;
+	text-align: center;
+	color:white;
+}
+.navigation{
+	height:50px;
+	background: black;
+	margin-top: 10px;
+	border-radius: 20px;
+	padding:10px;
+
+}
+.navigation ul{
+	text align:right;
+
+}
+.navigation ul li{
+font-size:200%; 
+	display:inline-block;
+	padding:12px;
+	margin-right:250px;
+	text-align: right;
+
+
+
+}
+.navigation a:hover{
+	color:white;
+	text-decoration: underline;
+}
+.content{
+
+	min-height:400px;
+		
+	background:#ddd;
+
+	width: 500px;
+	float:left;
+}
+.middle{
+	width: 550px;
+	height:400px;
+	float:left;
+	background-color: blue;
+
+}
+body{
+	background-image: url('download12.jpg');
+	background-size: cover;
+	
+}
+.sidebar{
+	width: 532px;
+	float:right;
+	color:black;
+	min-height: 400px;
+	background-color: yellow;
+}
+.footer{
+
+	color:white;
+	clear:both;
+	background: transparent;
+	height:40px;
+	
+	text-align: center;
+	padding: 20px;
+	overflow: hidden;
+	bottom-margin:10px;
+}

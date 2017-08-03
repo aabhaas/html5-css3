@@ -1,0 +1,60 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.heading{
+	height: 100px;
+	background: blue;
+	padding: 20px;
+	text-align: center;
+}
+.navigation{
+	height:50px;
+	background: red;
+	margin-top: 10px;
+	border-radius: 20px;
+	padding:10px;
+
+}
+.navigation ul{
+	text align:center;
+
+}
+.navigation ul li{
+	display:inline-block;
+	padding:6px;
+	margin-right:75px;
+
+
+}
+.navigation a:hover{
+	color:black;
+	text-decoration: underline;
+}
+.content{
+		min-height:400px;
+	background:#ddd;
+
+	width: 400px;
+	float:left;
+}
+body{
+	background-image: url("images/download.jpg");
+	background-size: cover;
+}
+.sidebar{
+	width: 200px;
+	float:right;
+	color:white;
+	min-height: 400px;
+}
+.footer{
+	clear:both;
+	background: black;
+	height:40px;
+	color:white;
+	text-align: center;
+	padding: 20px;
+	overflow: hidden;
+	bottom-margin:10px;
+}
