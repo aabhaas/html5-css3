@@ -1,0 +1,119 @@
+@keyframes slider{
+	0%{
+		Left:0px;
+	}
+	16%{
+		left:0px;
+	}
+	20%{
+		left:-960px;
+	}
+	36%{
+		left:-960px;
+	}
+	40%{
+		left:-1920px;
+	}
+	56%{
+		left:-1920px;
+	}
+	60%{
+		left:-2880px;
+	}
+	76%{
+		left:-2880px;
+	}
+	80%{
+		left:-3840px;
+	}
+	96%{
+		left:-3840px;
+	}
+	100%{
+		left:4800px;
+	}
+	
+}
+#slider{
+	overflow: hidden;
+	height:500px;
+	width:100%;
+}
+#slider figure img{
+	
+	float:left;
+	width:960px;
+}
+td{
+	text-align: center;
+}
+
+#slider figure{
+	position :relative;
+	width:4800px;
+	margin:0;
+	left:0;
+	text-align: left;
+	font-size: 0;
+	animation:10s slider infinite;
+}
+
+body{
+	background-image: url('download1234.jpg');
+	background-size: cover;
+	
+}
+
+.footer{
+
+	color:white;
+	clear:both;
+	background: transparent;
+	height:40px;
+	font-size: 20;
+	text-align: center;
+	padding: 20px;
+	overflow: hidden;
+	bottom-margin:10px;
+}
+.footer table{
+	width: 100;
+	float:right;
+
+}
+.footer table:hover{
+	background-color: black;
+}
+.abc table:hover{
+	background-color: white;  
+}
+
+
+
+ h1{
+    color: #D2691E;
+	text-align:center;
+	
+
+}
+.navigation li
+{
+	display:inline;
+	text-decoration: none;
+	color:yellow;
+	
+font-size: 17px;
+padding: 14px 14px;
+}
+.navigation{
+	background-color:purple ;
+	padding: 14px 2px;
+}
+.heading
+{
+	height:100px;
+	
+}
+table{
+	background-color: #D2691E;
+}
